@@ -1,0 +1,21 @@
+div{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-inline: 25px;
+}
+
+button {
+  background-color: #243f97; /* Color de fondo */
+  color: white; /* Color del texto */
+  border: none; /* Quita el borde por defecto */
+  padding: 10px 20px; /* Añade un poco de relleno para hacer el botón más grande */
+  border-radius: 20px; /* Hace el botón redondeado */
+  margin: 5px; /* Espaciado alrededor del botón */
+  font-size: 16px; /* Tamaño del texto */
+  cursor: pointer; /* Cambia el cursor al pasar por el botón */
+}
+
+button:hover {
+  background-color: #1d3381; /* Cambia el color de fondo al pasar el cursor */
+}
